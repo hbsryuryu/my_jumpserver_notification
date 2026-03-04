@@ -72,4 +72,7 @@ jobs:
           app-name: 'fn-tech0-jump-host-japaneast'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          scm-do-build-during-deployment: true
+          enable-oryx-build: true
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_918DB4D5B99D48F8B5046B680DFE5CAB }}
