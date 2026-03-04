@@ -1,0 +1,9 @@
+azure-functions
+python-dotenv
+requests
+pandas
+numpy
+orjson
+azure-monitor-query
+azure-identity
+xmltodict
